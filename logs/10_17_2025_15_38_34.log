@@ -1,0 +1,7 @@
+[ 2025-10-17 15:38:34,779 ] root - ERROR - Error occurred
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py", line 6, in <module>
+    a = 3/'451d3'
+        ~^~~~~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+[ 2025-10-17 15:38:34,779 ] root - ERROR - Error occurred in file 'C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py' at line 6: Custom error message

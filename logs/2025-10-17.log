@@ -1,0 +1,28 @@
+2025-10-17 15:32:03,850 - root - ERROR - Error occurred
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py", line 6, in <module>
+    a = 3/'q3'
+        ~^~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-10-17 15:32:03,866 - root - ERROR - Error occurred in file 'C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py' at line 6: Custom error message
+2025-10-17 15:32:21,381 - root - ERROR - Error occurred
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py", line 6, in <module>
+    a = 3/'q3'
+        ~^~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-10-17 15:32:21,389 - root - ERROR - Error occurred in file 'C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py' at line 6: Custom error message
+2025-10-17 15:36:07,799 - root - ERROR - Error occurred
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py", line 6, in <module>
+    a = 3/'451d3'
+        ~^~~~~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-10-17 15:36:07,808 - root - ERROR - Error occurred in file 'C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py' at line 6: Custom error message
+2025-10-17 15:36:45,972 - root - ERROR - Error occurred
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py", line 6, in <module>
+    a = 3/'451d3'
+        ~^~~~~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-10-17 15:36:45,980 - root - ERROR - Error occurred in file 'C:\Users\Dell\Desktop\MLOPS01\MLops_project01\demo.py' at line 6: Custom error message
