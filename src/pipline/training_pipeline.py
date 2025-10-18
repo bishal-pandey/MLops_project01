@@ -9,10 +9,10 @@ from src.exception import CustomException
 from src.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
 from src.entity.artifact_entity import DataIngestionArtifact,DataValidationArtifact, DataTransformationArtifact
 
-@dataclass
-class DataIngestionArtifact:
-    train_file_path: str = 'artifact/10_18_2025_17_10_13/data_ingestion/train.csv'
-    test_file_path: str = 'artifact/10_18_2025_17_10_13/data_ingestion/test.csv'
+# @dataclass
+# class DataIngestionArtifact:
+#     train_file_path: str = 'artifact/10_18_2025_17_10_13/data_ingestion/train.csv'
+#     test_file_path: str = 'artifact/10_18_2025_17_10_13/data_ingestion/test.csv'
 
 
 class TrainingPipeline:
@@ -61,8 +61,8 @@ class TrainingPipeline:
         try:
             logging.info("Enter run pipeline in training pipeline")
 
-            # data_ingestion_artifacts = self.start_data_ingestion()
-            data_ingestion_artifacts = DataIngestionArtifact()
+            data_ingestion_artifacts = self.start_data_ingestion()
+            # data_ingestion_artifacts = DataIngestionArtifact()
             data_validation_artifacts = self.start_data_validation(data_ingestion_artifacts)
             data_transformation_artifacts = self.start_data_transformation(data_ingestion_artifacts, data_validation_artifacts)
 
