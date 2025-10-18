@@ -1,7 +1,6 @@
 env/
 __pycache__/
 *.pyc
-abc.txt
 artifact/
 src.egg-info/
 eggs/

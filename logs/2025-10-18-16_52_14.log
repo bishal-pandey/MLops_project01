@@ -1,0 +1,1 @@
+2025-10-18 16:52:28,075 - root - ERROR - Error occurred in file 'C:\Users\Dell\Desktop\MLOPS01\MLops_project01\src\configuration\mongo_db_connection.py' at line 21: MongoDB URL not found
